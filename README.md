@@ -13,7 +13,7 @@ pip3.6 install neovim
 Abre *neovim* y ejecuta *:PlugInstall*. Escribe *cierra nvim*. Los cambios se 
 aplicarán cuando lo vuelvas a abrir.
 
-*** Comandos generales neovim ***
+***Comandos generales neovim***:
 
 | Atajo                  | Acción                                  |
 | ---------------------- | --------------------------------------- |
