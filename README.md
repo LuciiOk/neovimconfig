@@ -11,7 +11,7 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'(New
 pip3.6 install neovim
 ```
 Abre *neovim* y ejecuta *:PlugInstall*. Escribe *cierra nvim*. Los cambios se 
-aplicarán cuando lo cierres.
+aplicarán cuando lo vuelvas a abrir.
 
 *** Comandos generales neovim ***
 
