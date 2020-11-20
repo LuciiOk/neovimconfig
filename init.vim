@@ -7,7 +7,7 @@ source C:\Users\lport\AppData\Local\nvim\plugs\plugins.vim
 source C:\Users\lport\AppData\Local\nvim\plugs-configs\vim-commentary.vim
 source C:\Users\lport\AppData\Local\nvim\plugs-configs\vim-closetags.vim
 source C:\Users\lport\AppData\Local\nvim\plugs-configs\nnt.vim
-
-" themes
+source C:\Users\lport\AppData\Local\nvim\plugs-configs\prettier-coc.vim
+" thettmes
 source C:\Users\lport\AppData\Local\nvim\themes\colors.vim
 colorscheme dracula

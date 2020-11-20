@@ -1,4 +1,8 @@
 call plug#begin('~/.nvim/plugged')
+  " devicons
+  Plug 'ryanoasis/vim-devicons'
+  " autocomplete brackets/parenthesis
+  Plug 'Raimondi/delimitMate'
   " Syntax support
     Plug 'sheerun/vim-polyglot'
   " vim commentary

@@ -19,3 +19,9 @@ nnoremap <C-b> :bd<CR>
 " " Better tabbing
 vnoremap < <gv
 vnoremap > >gv
+
+" open vimrc
+nnoremap <leader>e :vsp $MYVIMRC<cr>
+
+" reload the .vimrc
+nnoremap <leader>r :so $MYVIMRC<cr>
