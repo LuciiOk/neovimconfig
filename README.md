@@ -18,14 +18,13 @@ aplicarán cuando lo vuelvas a abrir.
 | Atajo                  | Acción                                  |
 | ---------------------- | --------------------------------------- |
 | **jk** o **kj**        | Cambiar a modo normal (desde insertar)  |
-| **alt + [hjkl]**       | Cambiar split de tamaño                 |
 | **control + [hjkl]**   | Navegar splits                          |
 | **control + s**        | Guardar                                 |
-| **control + q**        | Guardar y salir                         |
-| **tab**                | Siguiente buffer                        |
-| **shift + tab**        | Buffer previo                           |
+| **control + q**        | Guardar y salir (forzado)               |
+| **tab**                | Buffer siguiente                        |
+| **shift + tab**        | Buffer anterior                         |
 | **control + b**        | Cerrar buffer                           |
-| **shift + <** or **>** | Identar o borrar indentación (visual)   |
+| **shift + <** o **>**  | Identar o borrar indentación (visual)    |
 | **shift + k** o **j**  | Mover línea seleccionada abajo o arriba |
 
 ***comandos para plugins plugins***:
