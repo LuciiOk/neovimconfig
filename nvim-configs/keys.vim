@@ -8,11 +8,13 @@ nnoremap <C-s> :w<CR>
 " Alternate way to quit and save
 nnoremap <C-q> :wq!<CR>
 
+" new tab
+nnoremap bt :tabnew
 " TAB in general mode will move to next buffer
-nnoremap <TAB> :bnext<CR>
-" " SHIFT-TAB will go to prev buffer
-nnoremap <S-TAB> :bprevious<CR>
-"
+nnoremap <TAB> :tabnext<CR>
+" SHIFT-TAB will go to prev buffer
+nnoremap <S-TAB> :tabprevious<CR>
+
 " close current buffer
 nnoremap <C-b> :bd<CR>
 
@@ -25,3 +27,17 @@ nnoremap <leader>e :vsp $MYVIMRC<cr>
 
 " reload the .vimrc
 nnoremap <leader>r :so $MYVIMRC<cr>
+
+" compilar gcc
+nnoremap <leader>cb : call CompileGcc()<CR>
+func! CompileGcc()
+  exec "w"
+  exec "!gcc % -o %<"
+endfunc
+ 
+nnoremap <leader>cn :call CompileRunGcc()<CR>
+func! CompileRunGcc()
+  exec "w"
+  exec "!gcc % -o %<"
+  exec "! %<.exe"
+endfunc
