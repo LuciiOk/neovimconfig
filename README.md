@@ -21,10 +21,10 @@ aplicarán cuando lo vuelvas a abrir.
 | **control + [hjkl]**   | Navegar splits                          |
 | **control + s**        | Guardar                                 |
 | **control + q**        | Guardar y salir (forzado)               |
-| **tab**                | Buffer siguiente                        |
-| **shift + tab**        | Buffer anterior                         |
+| **tab**                | Pestaña siguiente                       |
+| **shift + tab**        | Pestaña anterior                        |
 | **control + b**        | Cerrar buffer                           |
-| **shift + <** o **>**  | Identar o borrar indentación (visual)    |
+| **shift + <** o **>**  | Identar o borrar indentación (visual)   |
 | **shift + k** o **j**  | Mover línea seleccionada abajo o arriba |
 
 ***comandos para plugins plugins***:
